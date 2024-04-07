@@ -1,0 +1,24 @@
+.placement-assistance-container{
+    background-color: #F8F4FF;
+    padding: 15px;
+    margin-bottom: 40px;
+    width: 78%;
+}
+.placement-container-heading{
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.placement-assistance-description{
+    font-size: 16px;
+}
+.placement-assistance-title{
+    font-size: 18px;
+    font-weight: 600;
+}
+.placement-assistance-bg-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

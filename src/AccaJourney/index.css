@@ -1,0 +1,49 @@
+.kick-off-acca-journey-bg-container{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+.kick-off-acca-journey-container{
+    width: 75%;
+    background-color: #ECF3F9;
+    padding: 35px;
+    display: flex;
+    flex-direction: row;
+}
+.kick-off-acca-journey-container-heading{
+    font-size: 22px;
+    font-weight: 700;
+}
+.kick-off-acca-journey-container-description{
+   font-size: 16px;
+}
+.start-journey-btn{
+    background-color:#E80000 ;
+    color: #ffffff;
+    border: none;
+    height: 32px;
+    width: 100px;
+    border-radius: 8px;
+    
+}
+.apply-card-container{
+    border-top: solid 3px #4120A9;
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-left: 20px;
+}
+.apply-card-heading{
+    font-size: 18px;
+    font-family: 'Roboto';
+}
+.request-call-btn{
+    margin-top: 15px;
+    background-color: #4120A9;
+    color: #ffffff;
+    text-align: center;
+    padding: 6px;
+    border: none;
+}
