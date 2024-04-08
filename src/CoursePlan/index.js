@@ -2,7 +2,7 @@ import './index.css'
 
 const CoursePlan=()=>{
     return(
-        <div className='what-will-you-learn-container'>
+        <div id="coursePlan" className='what-will-you-learn-container'>
             <h1 className='what-will-you-learn-heading'>What will you learn in ACCA</h1>
              <div className="learn-cards-container">
                  <div className='learn-card-container'>

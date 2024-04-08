@@ -1,22 +1,23 @@
 import './App.css';
-import {Routes,Route} from 'react-router-dom'
+
 import Home from './Home'
-import Navbar from './Navbar'
+import ResponsiveNavbar from './Navbar'
 import WhyChooseUs from './whyChooseUs'
 import CoursePlan  from './CoursePlan'
 import PlacementAssistance from './PlacementAssistance'
 import AccaJourney from './AccaJourney'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App=()=>(
   <>
-  <Navbar/>
-    <Routes>
-      <Route path="/" element={<Home/>} />
-      </Routes>
+  <ResponsiveNavbar/>
+  <Home/>
   <WhyChooseUs/>
   <CoursePlan/>
   <PlacementAssistance/>
   <AccaJourney/>
+      
+  
   </>
 )
 

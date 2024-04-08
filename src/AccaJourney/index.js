@@ -1,8 +1,9 @@
+import Example  from '../Modal'
 import './index.css'
 
 const AccaJourney=()=>{
    return(
-    <div className='kick-off-acca-journey-bg-container'>
+    <div id="accaJourney" className='kick-off-acca-journey-bg-container'>
         <div className='kick-off-acca-journey-container'>
             <div>
                 <h1 className="kick-off-acca-journey-container-heading">Kick off your ACCA journey with IndigoLearn</h1>
@@ -18,7 +19,9 @@ const AccaJourney=()=>{
                 <input id="email" type="text"/>
                 <label htmlFor="phone-number">Enter mobile no:</label>
                 <input id="phone-number" type="text"/>
-                <button className='request-call-btn'>Request callback</button>
+                <div className='request-call-btn'>
+                <Example/>
+                </div>
             </div>
          </div>
         </div>

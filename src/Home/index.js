@@ -1,10 +1,10 @@
-
+import  Example  from '../Modal'
 import './index.css'
-
+ 
 
 const Home=()=>{
    return (
-    <div className="home-container">
+    <div id="home" className="home-container">
         <div className="content-container">
             <h1 className="heading">Become ACCA in 18 months</h1>
             <p className="description">ACCA qualifications are respected worldwide and provide individuals with the skills and knowledge necessary for a successful career in accounting, finance, and related fields.</p>
@@ -27,8 +27,9 @@ const Home=()=>{
             <input id="email" type="text"/>
             <label htmlFor="phone-number">Enter mobile no:</label>
             <input id="phone-number" type="text"/>
-            <button className='request-call-btn'>Request callback</button>
-           
+            <div className='request-call-btn'>
+                <Example/>
+            </div>
         
          </div>
     </div>

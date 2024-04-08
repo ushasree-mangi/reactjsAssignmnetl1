@@ -2,7 +2,7 @@ import './index.css'
 
 const PlacementAssistance=()=>{
         return(
-            <div className='placement-assistance-bg-container'>
+            <div id="placementAssistance" className='placement-assistance-bg-container'>
             <div className='placement-assistance-container'>
                 <h1 className='placement-container-heading'>100% Placement Assistance</h1>
                 <h1 className='placement-assistance-title'>Resume Building</h1>
